@@ -18,6 +18,7 @@ When you test your form at the moment, you'll notice that you can click on the c
         display: none;
       }
     </style> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
     <h1>Challenge One</h1>
@@ -39,9 +40,11 @@ When you test your form at the moment, you'll notice that you can click on the c
         </div>
 
         <script>
+
           $("#subscribe").click(function() { 
-            $("#emailfield").toggle("slow");
+            $("#emailField").toggle("slow");
           });
+
         </script>
 
         <input type = "submit" value = "Go To Challenge 2">
